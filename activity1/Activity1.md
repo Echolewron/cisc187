@@ -1,4 +1,5 @@
 # Array Data Structure
+[YouTube Video](https://youtu.be/6gpw0MHOdbg)
 
 ## 1. Explain how to create an array of 100 elements.
 In C++, you first need to tell the computer what data type you want to store in the array and the size of an array:
