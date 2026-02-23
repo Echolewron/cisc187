@@ -1,6 +1,6 @@
 # Sorting Algorithms
 
-[![YouTube Video Activity 3](https://img.youtube.com/vi/oY6H_oEI24w/0.jpg)](https://www.youtube.com/watch?v=oY6H_oEI24w)
+[YouTube Video Activity 3](https://www.youtube.com/watch?v=oY6H_oEI24w)
 
 ## 1. Big O Notation for algorithm with $4N + 16 steps$:
 
