@@ -6,3 +6,13 @@ To achieve $O(N + M)$ time complexity, I converted the first list of players int
 * Converting each name from list 1 to a set = $O(N)$
 * Checking each name from list 2 against the set = $O(M)$
 * Resultant runtime: $O(N) + O(M) = O(N + M)$
+
+### Task 2: Find missing number
+
+For this problem, I didn't use any special data structures. Instead, mathematical solution seemed to be simplier. If:
+* If, Sum of integers from 0 to N = $TotalSum$
+* And, Same sum but with missing number = $TotalSum - MissingNum = PartialSum$
+* Then, $MissingNum = TotalSum - PartialSum$
+
+$TotalSum$ can be calculated using summation formula $\frac{n(n+1)}{2}$
+$PartialSum$ can be calculated by adding all numbers in the array.
