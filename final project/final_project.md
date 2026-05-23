@@ -24,4 +24,7 @@ For this problem, program finds lower price point (lowest so far) and compares t
 
 
 
-### Task 4:
+### Task 4: Greatest Product
+
+To find greatest product of two numbers in an array, we need to find two largest numbers and get their product. However, since we need to also track negative numbers as well, then we need to find not only two greatest positiven numbers but also two most negative numbers, calculate product of the two, and return which ever product is greatest.
+

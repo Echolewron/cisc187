@@ -1,0 +1,1 @@
+g++ main.cpp -o main; ./main; Remove-Item main.exe
