@@ -1,6 +1,6 @@
 # Final Project
 
-### Task 1: Finding players that play both sports
+## Task 1: Finding players that play both sports
 
 Code: [task1.cpp](task1.cpp)
 
@@ -9,7 +9,7 @@ To achieve $O(N + M)$ time complexity, I converted the first list of players int
 * Checking each name from list 2 against the set = $O(M)$
 * Resultant runtime: $O(N) + O(M) = O(N + M)$
 
-### Task 2: Find missing number
+## Task 2: Find missing number
 
 Code: [task2.cpp](task2.cpp)
 
@@ -22,7 +22,7 @@ $TotalSum$ can be calculated using summation formula $\frac{n(n+1)}{2}$
 $PartialSum$ can be calculated by adding all numbers in the array.
 
 
-### Task 3: Greatest Stock Profit
+## Task 3: Greatest Stock Profit
 
 Code: [task3.cpp](task3.cpp)
 
@@ -30,7 +30,7 @@ For this problem, program finds lower price point (lowest so far) and compares t
 
 
 
-### Task 4: Greatest Product
+## Task 4: Greatest Product
 
 Code: [task4.cpp](task4.cpp)
 
