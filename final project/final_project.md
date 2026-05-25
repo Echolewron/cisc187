@@ -34,3 +34,6 @@ To find greatest product of two numbers in an array, we need to find two largest
 Since readings here are limited to only two changing digits and a known range, we can make a limited-range frequency table for each possible reading (21 total). Then, we can use this frequency table to iterate from 97.0 to 99.0 and add that reading back into the output array based on its frequency. As a result, we iterate total of $2N$ times, resulting in time complexity of $O(N)$. Moreover, since the frequency table always has same size and we are writing to the original array, space complexity is $O(1)$.
 
 
+## Task 6: Longest Sequence
+
+To make this algorithm run in $O(N)$, we can use properties of (unordered) set's O(1) look-up. We can add all numbers in the input array to a set. Then, we can traverse the array for each number, asking "Is n+1 in the set? If yes, is n+2 in the set?" and so on. To make this run efficiently, before traversing through potential sequences, we can first check if current number is at the beginning of the sequence by checking if n-1 is not in a set.
