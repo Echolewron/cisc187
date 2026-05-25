@@ -7,6 +7,8 @@
 
 ## Task 1
 
+Code: [task1.cpp](task1.cpp)
+
 You’re working on software that analyzes sports players. Following are two arrays of players of different sports:
 
 ```
@@ -41,6 +43,8 @@ We can use a nested-loops approach, comparing each player from one array against
 
 ## Task 2
 
+Code: [task2.cpp](task2.cpp)
+
 You’re writing a function that accepts an array of distinct integers from 0, 1, 2, 3...up to N. However, the array will be missing one integer, and your function is to *return the missing one.*
 
 For example, this array has all the integers from 0 to 6, but is missing the 4:
@@ -65,6 +69,8 @@ Using a nested-loops approach would take up to $O(N^2)$.
 
 ## Task 3
 
+Code: [task3.cpp](task3.cpp)
+
 You’re working on some more stock-prediction software. The function you’re writing accepts an array of predicted prices for a particular stock over the course of time.
 
 For example, this array of seven prices:
@@ -87,6 +93,8 @@ Now, we could use nested loops to find the profit of every possible buy and sell
 
 ## Task 4
 
+Code: [task4.cpp](task4.cpp)
+
 You’re writing a function that accepts an array of numbers and computes the highest product of any two numbers in the array. At first glance, this is easy, as we can just find the two greatest numbers and multiply them. However, our array can contain negative numbers and look like this:
 
 ```
@@ -96,6 +104,8 @@ You’re writing a function that accepts an array of numbers and computes the hi
 We could use nested loops to multiply every possible pair of numbers, but this would take $O(N^2)$ time. **Your job is to optimize the function so that it’s a speedy $O(N)$.**
 
 ## Task 5
+
+Code: [task5.cpp](task5.cpp)
 
 You’re creating software that analyzes the data of body temperature readings taken from hundreds of human patients. These readings are taken from healthy people and range from 97.0 degrees Fahrenheit to 99.0 degrees Fahrenheit. An important point: within this application, *the decimal point never goes beyond the tenth place.*
 
@@ -112,6 +122,8 @@ Using a classic sorting algorithm such as Quicksort would take $O(N log N)$. How
 Yes, that’s right. Even though you’ve learned that the fastest sorts are $O(N log N)$, this case is different. Why? In this case, there are limited possibilities for the readings. In such a case, we can sort these values in $O(N)$. It may be $N$ multiplied by a constant, but that’s still considered $O(N)$.
 
 ## Task 6
+
+Code: [task6.cpp](task6.cpp)
 
 You’re writing a function that accepts an array of unsorted integers and returns the length of the *longest consecutive sequence* among them. The sequence is formed by integers that increase by 1. For example, in the array:
 
