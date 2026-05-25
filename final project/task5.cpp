@@ -14,6 +14,8 @@ void sortReadings(vector<float>& readings) {
     }
 
     int output_index = 0;
+
+
     for (int i = 0; i < frequency_table.size(); i++) {
         float temp = ((float)i + 970.0) / 10.0;
         while (frequency_table[i] > 0) {

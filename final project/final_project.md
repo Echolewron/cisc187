@@ -28,3 +28,9 @@ For this problem, program finds lower price point (lowest so far) and compares t
 
 To find greatest product of two numbers in an array, we need to find two largest numbers and get their product. However, since we need to also track negative numbers as well, then we need to find not only two greatest positiven numbers but also two most negative numbers, calculate product of the two, and return which ever product is greatest.
 
+
+## Task 5: Sort temperature readings in $O(1)$
+
+Since readings here are limited to only two changing digits and a known range, we can make a limited-range frequency table for each possible reading (21 total). Then, we can use this frequency table to iterate from 97.0 to 99.0 and add that reading back into the output array based on its frequency. As a result, we iterate total of $2N$ times, resulting in time complexity of $O(N)$. Moreover, since the frequency table always has same size and we are writing to the original array, space complexity is $O(1)$.
+
+
